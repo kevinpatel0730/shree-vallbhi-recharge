@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+    /* font-family: Poppins, sans-serif; */
+}
+
+.custom-bgblue {
+    background-color: #273274;
+}
+
+.custom-blue {
+    color: #273274;
+}
+
+.sky-color {
+    color: rgba(0, 255, 255, 0.812);
+}
+
+.icon-hover:hover {
+    color: white;
+}
+
+.custom-fontsize {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.bg-fixed {
+    background-image: url(Images/main.jpg);
+    background-size: 100% 100%;
+    height: 80vh;
+    opacity: 0.3;
+    background-attachment: fixed;
+}
+
+.custom-bgmain {
+    background-color: #fff;
+}
+
+.custom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.animate {
+    background-image: linear-gradient(to bottom, white 50%, #273274 50%);
+    transition: all 0.2s ease-out;
+    background-size: 100% 200%;
+    background-position: top;
+}
+
+.animate:hover {
+    background-position: bottom;
+    color: white;
+}
+
+.animate:hover i {
+    color: white;
+}
+
+.custom-btn {
+    width: 15vh;
+    height: 8vh;
+    font-size: 1.8rem;
+    color: #273274;
+    background-color: #e7f1fd;
+    border: none;
+    font-weight: bold;
+}
+
+.custom-btn:hover {
+    background-color: #273274;
+    color: white
+}
+
+.custom-bgsky {
+    background-color: #f6f9fe;
+}
+
+
+.rounded-circle {
+    width: 8vh;
+    height: 8vh;
+    box-shadow: 0px 3px 15px #27337445;
+}
+
+.rounded-circle-smile {
+    width: 7vh;
+    height: 7vh;
+    background-color: #273274;
+    border-radius: 100%;
+    transform: translate(0px, -2vh);
+    box-shadow: 0px 4px 5px white;
+}
+
+.scale-effect:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.service-content-box {
+    width: 10vh;
+    height: 10vh;
+    background-color: #f6f9fe;
+    border-radius: 0.5vh;
+}
+
+.text-color {
+    color: #3b8af2;
+}
+
+.hover-effect:hover {
+    background-color: white;
+    box-shadow: 0px 0px 20px #27337414;
+    transition: 1s;
+}
+
+.hover-effect:hover .service-content-box {
+    border: 1px solid #273274;
+    border-radius: 0.5vh;
+    transition: 1s;
+}
+
+.hover-effect:hover i {
+    color: #273274;
+    transition: 1s;
+}
+
+.hover-effect:hover h1 {
+    color: #273274;
+    transition: 1s;
+}
+
+.filter-effect {
+    filter: brightness(30%);
+}
+
+.img-circle {
+    width: 14vh;
+    height: 14vh;
+    border-radius: 100%;
+    outline: 7px solid gray
+}
+
+.rounded-circle-img {
+    border-radius: 100%;
+}
+
+.rounded-circle-contact {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 100%;
+    border: 2px dotted #273274;
+}
+
+.custom-greyclr {
+    color: #777;
+}
+
+.custom-btn-2 {
+    width: 18vh;
+    height: 6vh;
+    background-color: #273274;
+}
+
+.icon-square {
+    width: 5vh;
+    height: 5vh;
+    background-color: #273274;
+    border-radius: 0.3vh;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.icon-square:hover {
+    background-color: #3b8af2;
+    transition: 1s;
+}
+
+.link-hover:hover {
+    color: #273274;
+    transition: 1s;
+}
+
+.custom-greyclrdrk {
+    color: #777;
+}
+.back-to-top {
+    width: 6vh;
+    height: 6vh;
+    background-color: #273274;
+    border-radius: 0.5vh;
+}
+
+.custom-btn-register {
+    width: 20vh;
+    height: 8vh;
+    border-radius: 5vh;
+    background: transparent;
+    border: 1px solid #273274;
+    color: #273274;
+}
+
+.custom-btn-register:hover {
+    background-color: #273274;
+    color: white;
+}
+.custom-btn-login {
+    width: 20vh;
+    height: 8vh;
+    border-radius: 5vh;
+}
+
